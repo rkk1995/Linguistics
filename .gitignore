@@ -1,0 +1,16 @@
+# IDE/Editor/OS crud
+.DS_Store
+# vscode # keeping for personal storage so long as I am sole contributor on repo
+__pycache__
+.pyc
+.cpython-36
+.cpython-36.pyc
+
+# secrets
+.env
+db.sqlite3
+
+# shouldn't be any .exe or similar in a django project
+.exe
+.apk
+.bat

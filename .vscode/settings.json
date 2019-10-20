@@ -1,0 +1,40 @@
+{
+  // project standard
+  "editor.tabSize": 4,
+  "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin/python3",
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.linting.ignorePatterns": [
+    ".vscode/*.py",
+    "**/site-packages/**/*.py"
+  ],
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django"
+  ],
+
+  // personal env
+  "python.unitTest.debugPort": 3000,
+  "python.analysis.logLevel": "Warning",
+  "python.formatting.provider": "autopep8",
+  "python.unitTest.pyTestPath": "pytest",
+  "python.unitTest.unittestArgs": [
+    "-v",
+    "-s",
+    ".",
+    "-p",
+    "test*.py"
+  ],
+  "python.venvFolders": [
+    "envs",
+    ".pyenv",
+    ".direnv"
+  ],
+
+  // personal preference
+  "files.autoSave": "off",
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "python.linting.lintOnSave": false,
+  "python.unitTest.pyTestEnabled": false,
+  "python.unitTest.nosetestsEnabled": false,
+  "python.unitTest.unittestEnabled": true,
+}
