@@ -13,11 +13,11 @@
   ],
 
   // personal env
-  "python.unitTest.debugPort": 3000,
+  "python.testing.debugPort": 3000,
   "python.analysis.logLevel": "Warning",
   "python.formatting.provider": "autopep8",
-  "python.unitTest.pyTestPath": "pytest",
-  "python.unitTest.unittestArgs": [
+  "python.testing.pytestPath": "pytest",
+  "python.testing.unittestArgs": [
     "-v",
     "-s",
     ".",
@@ -34,7 +34,7 @@
   "files.autoSave": "off",
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "python.linting.lintOnSave": false,
-  "python.unitTest.pyTestEnabled": false,
-  "python.unitTest.nosetestsEnabled": false,
-  "python.unitTest.unittestEnabled": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.unittestEnabled": true,
 }
